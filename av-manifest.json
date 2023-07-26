@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://preview.iiif.io/cookbook/0219-using-caption-file/recipe/0219-using-caption-file/manifest.json",
+  "id": "https://raw.githubusercontent.com/DigitLib/iiif-av-audio-caption/main/av-manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -9,58 +9,54 @@
   },
   "items": [
     {
-      "id": "https://preview.iiif.io/cookbook/0219-using-caption-file/recipe/0219-using-caption-file/canvas",
+      "id": "https://raw.githubusercontent.com/DigitLib/iiif-av-audio-caption/main/canvas",
       "type": "Canvas",
-      "height": 360,
-      "width": 480,
-      "duration": 572.034,
+      "duration": 813.44,
       "items": [
         {
-          "id": "https://preview.iiif.io/cookbook/0219-using-caption-file/recipe/0219-using-caption-file/canvas/page",
+          "id": "https://raw.githubusercontent.com/DigitLib/iiif-av-audio-caption/main/canvas/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://preview.iiif.io/cookbook/0219-using-caption-file/recipe/0219-using-caption-file/canvas/page/annotation1",
+              "id": "https://raw.githubusercontent.com/DigitLib/iiif-av-audio-caption/main/canvas/page/annotation1",
               "type": "Annotation",
               "motivation": "painting",
               "body": [
                 {
-                  "id": "https://fixtures.iiif.io/video/indiana/lunchroom_manners/high/lunchroom_manners_1024kb.mp4",
-                  "type": "Video",
-                  "height": 360,
-                  "width": 480,
-                  "duration": 572.034,
-                  "format": "video/mp4"
+                  "id": "https://digitalna.milutinbojic.org.rs/audio-tst/free.mp3",
+                  "type": "Audio",
+                  "duration": 813.44,
+                  "format": "audio/mp3"
                 }
               ],
-              "target": "https://preview.iiif.io/cookbook/0219-using-caption-file/recipe/0219-using-caption-file/canvas"
+              "target": "https://raw.githubusercontent.com/DigitLib/iiif-av-audio-caption/main/canvas"
             }
           ]
         }
       ],
       "annotations": [
         {
-          "id": "https://preview.iiif.io/cookbook/0219-using-caption-file/recipe/0219-using-caption-file/canvas/page2",
+          "id": "https://raw.githubusercontent.com/DigitLib/iiif-av-audio-caption/main/canvas/page2",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://preview.iiif.io/cookbook/0219-using-caption-file/recipe/0219-using-caption-file/canvas/page2/a1",
+              "id": "https://raw.githubusercontent.com/DigitLib/iiif-av-audio-caption/main/canvas/page2/a1",
               "type": "Annotation",
               "motivation": "supplementing",
               "body": [
                 {
-                  "id": "https://fixtures.iiif.io/video/indiana/lunchroom_manners/lunchroom_manners.vtt",
+                  "id": "https://digitalna.milutinbojic.org.rs/audio-tst/free.srt",
                   "type": "Text",
-                  "format": "text/vtt",
+                  "format": "text/srt",
                   "label": {
                     "en": [
-                      "Captions in WebVTT format"
+                      "Captions in SRT format"
                     ]
                   },
-                  "language": "en"
+                  "language": "sr"
                 }
               ],
-              "target": "https://preview.iiif.io/cookbook/0219-using-caption-file/recipe/0219-using-caption-file/canvas"
+              "target": "https://raw.githubusercontent.com/DigitLib/iiif-av-audio-caption/main/canvas"
             }
           ]
         }
