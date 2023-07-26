@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://raw.githubusercontent.com/DigitLib/iiif-av-audio-caption/main/av-manifest.json",
+  "id": "https://raw.githubusercontent.com/DigitLib/iiif-av-audio-caption/main/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
